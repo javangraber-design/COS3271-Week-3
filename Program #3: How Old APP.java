@@ -8,7 +8,7 @@ public class MyProject {
     static Scanner userinput = new Scanner(System.in);
     public static void main(String[] args) {
     	
-    	//Create the variable
+    	//Create the variables
         double age, futureAge;
         
         //Get the user input
@@ -19,7 +19,7 @@ public class MyProject {
         //Perform the calculations and print
         System.out.print("\n");
         System.out.println("\tIn 5 years you will be " + futureAge + " years old.");
-        System.out.println("\tIt is " + (age < 20 && age >= 13) +" that you are a teenager");
+        System.out.println("\tIt is " + (age < 20 && age >= 13) +" that you are a teenager.");
         System.out.println("\tI am such a smart computer.");
 
     }
